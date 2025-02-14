@@ -1,0 +1,77 @@
+﻿@model List<MedInvEquip.Models.MedicalEquipment>
+
+<h1>Medical Equipment</h1>
+
+
+@* Initially the intent was to add to custom css like for Account, but let's leave it raw. That's better I guess.*@
+@* <div class="image-container" style="position: relative; text-align: center; margin-bottom: 20px;"> *@
+@*     <img src="~/images/ListBG.jpg" alt="Medical Equipment" *@
+@*          style="width: 100%; height: auto; max-width: 100%; opacity: 0.5; position: absolute; top: 0; left: 0; z-index: -1;" /> *@
+@* </div> *@
+
+<!-- We want seach based on name only. -->
+<form method="get" action="@Url.Action("List", "MedicalEquipment")">
+    <div class="form-group">
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search by Name" value="@ViewData["SearchQuery"]" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Search</button>
+</form>
+
+<!-- Table for displaying Medical Equipments -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>
+                <!-- Toggle Sorting on Price Column -->
+                <a href="@Url.Action("List", new { sortOrder = ViewData["SortOrder"]?.ToString() == "asc" ? "desc" : "asc", page = ViewData["CurrentPage"], searchQuery = ViewData["SearchQuery"] })">
+                    Price
+                    @if (ViewData["SortOrder"]?.ToString() == "asc")
+                    {
+                        <!-- This displays "up" arrow when sorting by ascending -->
+                        <i class="fas fa-arrow-up" style="font-size: 0.8rem; margin-left: 5px;"></i>
+                    }
+                    else
+                    {
+                        <!-- This displays "down" arrow when sorting by descending -->
+                        <i class="fas fa-arrow-down" style="font-size: 0.8rem; margin-left: 5px;"></i>
+                    }
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var equipment in Model)
+        {
+            <tr>
+                <td>@equipment.Id</td>
+                <td>@equipment.Name</td>
+                <td>@equipment.Quantity</td>
+                <td>@equipment.Price</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="MedicalEquipment" asp-action="Edit" asp-route-id="@equipment.Id">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- This divsion is for pagination logic -->
+<div class="pagination">
+    @if ((int)ViewData["CurrentPage"] > 1)
+    {
+        <a href="@Url.Action("List", new { page = (int)ViewData["CurrentPage"] - 1, sortOrder = ViewData["SortOrder"], searchQuery = ViewData["SearchQuery"] })" class="btn btn-secondary">Previous</a>
+    }
+
+    <span>Page @ViewData["CurrentPage"] of @ViewData["TotalPages"]</span>
+
+    @if ((int)ViewData["CurrentPage"] < (int)ViewData["TotalPages"])
+    {
+        <a href="@Url.Action("List", new { page = (int)ViewData["CurrentPage"] + 1, sortOrder = ViewData["SortOrder"], searchQuery = ViewData["SearchQuery"] })" class="btn btn-secondary">Next</a>
+    }
+</div>
+
+<!-- This is for including add method in the list page -->
+<a class="btn btn-primary" asp-controller="MedicalEquipment" asp-action="Add">Add</a>

@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\repos\\MedInvEquip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\views\\medicalequipment\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\views\\medicalequipment\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\controllers\\medicalequipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\controllers\\medicalequipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\views\\medicalequipment\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\views\\medicalequipment\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|e:\\source\\repos\\medinvequip\\medinvequip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C0D57B-379C-4B47-A03D-1F9051335B18}|MedInvEquip\\MedInvEquip.csproj|solutionrelative:medinvequip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MedInvEquip\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MedInvEquip\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T15:19:46.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Views\\MedicalEquipment\\List.cshtml",
+              "RelativeDocumentMoniker": "MedInvEquip\\Views\\MedicalEquipment\\List.cshtml",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Views\\MedicalEquipment\\List.cshtml",
+              "RelativeToolTip": "MedInvEquip\\Views\\MedicalEquipment\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T12:23:08.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "account.css",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\wwwroot\\css\\account.css",
+              "RelativeDocumentMoniker": "MedInvEquip\\wwwroot\\css\\account.css",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\wwwroot\\css\\account.css",
+              "RelativeToolTip": "MedInvEquip\\wwwroot\\css\\account.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-14T15:02:26.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Program.cs",
+              "RelativeDocumentMoniker": "MedInvEquip\\Program.cs",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Program.cs",
+              "RelativeToolTip": "MedInvEquip\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:55:05.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicalEquipmentController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Controllers\\MedicalEquipmentController.cs",
+              "RelativeDocumentMoniker": "MedInvEquip\\Controllers\\MedicalEquipmentController.cs",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Controllers\\MedicalEquipmentController.cs",
+              "RelativeToolTip": "MedInvEquip\\Controllers\\MedicalEquipmentController.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAADwv7YAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:13:19.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MedInvEquip\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MedInvEquip\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAADwv5kAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:46:50.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Views\\MedicalEquipment\\Add.cshtml",
+              "RelativeDocumentMoniker": "MedInvEquip\\Views\\MedicalEquipment\\Add.cshtml",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Views\\MedicalEquipment\\Add.cshtml",
+              "RelativeToolTip": "MedInvEquip\\Views\\MedicalEquipment\\Add.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T08:17:23.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MedInvEquip\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\source\\repos\\MedInvEquip\\MedInvEquip\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MedInvEquip\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:35:29.316Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
