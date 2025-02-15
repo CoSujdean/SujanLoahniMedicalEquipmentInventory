@@ -1,4 +1,4 @@
-This project contain Medical Equipment Inventory in .NET 8. It's desinged to add add medical equipments and medicines so that users can view the items in the web-app. Onlylogin users can perform CRUD operation for that users have to register first. 
+This project contain Medical Equipment Inventory in .NET 8. It's desinged to add add medical equipments and medicines so that users can view the items in the web-app. Onlylogin users can perform CRUD operation for that users have to register first. The following images contains few probelms that occured during the course of development and final outcome of the project.
 
 
 ![Prob1](https://github.com/user-attachments/assets/a42ac100-c62f-4b23-854a-60076956062a)
